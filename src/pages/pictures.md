@@ -14,5 +14,6 @@ pageClass: pictures
 <img src="/img/apples.png" alt="apple" />
 
 {% for filename in images %}
+
 ![alt info goes here](/img/{{ filename }})
 {% endfor %}

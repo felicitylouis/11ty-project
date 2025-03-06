@@ -8,12 +8,15 @@ pageClass: home
 
 ## Articles
 
-> A blockquote will appear here
+<button>Show Stories</button>
 
-A list of articles
+<main class="stories"></main>
 
-- bullet one
-- bullet two
 
-1. one
-1. two
+
+{% for page in collections.page %}
+
+<h2> <a href="{{ page.url }}">{{ page.data.pageTitle | upcase }}</a></h2>
+<p>{{ page.date | date: "%Y-%M-%d" }}</p>
+
+{% endfor %}
