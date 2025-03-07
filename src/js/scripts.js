@@ -1,14 +1,36 @@
-document.addEventListener("click", clickHandlers);
+const apiKey = `Aikw2067983OYq1mgYyzogqW9zG8vBWD`;
+const API = `https://api.nytimes.com/svc/topstories/v2/arts.json?api-key=${apiKey}`;
 
-function clickHandlers(event) {
-  if (!event.target.matches("button")) return;
-  fetch("https://jsonplaceholder.typicode.com/posts")
+// document.addEventListener("click", clickHandlers);
+
+function getStories() {
+  // if (!event.target.matches("button")) return;
+  fetch(API)
     .then((response) => response.json())
-    .then((data) => showData(data));
+    .then((data) => showData(data.results));
 }
 
-function showData(data) {
-  let content = data.map((post) => `<h3>${post.title}</h3><p>${post.body}</p>`);
+function showData(stories) {
+  var looped = stories
+    .map(
+      (story) => `
+    <div class="item">
+    <picture>
+        <img src="${story.multimedia[2].url}" alt="" />
+        <caption>${story.multimedia[2].caption}</caption>
+    </picture>
+      <h3><a href="${story.url}">${story.title}</a></h3>
+      <p>${story.abstract}</p>
+    </div>
+  `
+    )
+    .join("");
 
-  document.querySelector(".stories").innerHTML = content;
+  document.querySelector(".stories").innerHTML = looped;
 }
+
+if (document.querySelector(".p-home")) {
+  getStories();
+}
+
+
