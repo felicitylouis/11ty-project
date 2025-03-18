@@ -1,15 +1,35 @@
 ---
 pageTitle: About Us
-navTitle: About
+navTitle: Locations
 pageClass: about
 ---
-
+<!-- # about me
 ## We are
 
 - a group of commited citizens
 - a caring community
 - a force in national politics
 
-We are New Yorkers.
+We are New Yorkers. -->
 
-[Home](/)
+<!-- [Home](/) -->
+
+### Bedford-Stuyvesant
+1561 Bedford Avenue  
+Brooklyn, NY 11225
+
+### Brownsville
+1555 Linden Boulevard  
+Brooklyn, NY 11212
+
+### Coney Island
+2980 West Twenty-Ninth Street  
+Brooklyn, NY 11224 
+
+### Flatbush
+1101 Church Avenue  
+Brooklyn, NY 11218
+
+### Fort Greene
+965 Fulton Street  
+Brooklyn, NY 1123

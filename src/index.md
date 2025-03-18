@@ -1,20 +1,20 @@
 ---
 layout: layout.html
-pageTitle: New York Today
-navTitle: Home
+pageTitle: Home
+navTitle: Classes
 tags: page
 pageClass: home
 ---
 
-## Articles
+<!-- ## Classes -->
 
-<main class="stories"></main>
+<!-- <main class="stories"></main> -->
 
 
 
-{% for page in collections.page %}
+{% for page in collections.posts %}
 
-<h2> <a href="{{ page.url }}">{{ page.data.pageTitle | upcase }}</a></h2>
-<p>{{ page.date | date: "%Y-%M-%d" }}</p>
+<h2> <a href="{{ page.url }}">{{ page.data.pageTitle}}</a></h2>
+<!-- <p>{{ page.date | date: "%Y-%M-%d" }}</p> -->
 
 {% endfor %}
