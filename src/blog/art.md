@@ -10,5 +10,5 @@ Learn the fundamentals of wedging, shaping, trimming, and build your own vase, p
 ## Drawing Basics
 This hands-on course will explore essentials such as proportion and shading and texture.
 
-<img src="https://artmiamimagazine.com/wp-content/uploads/2020/11/Miami-Drawing-Classes.jpg" alt="drawing"/>
+<img src="https://artmiamimagazine.com/wp-content/uploads/2020/11/Miami-Drawing-Classes.jpg" alt="right hand holding pencil and drawing"/>
 

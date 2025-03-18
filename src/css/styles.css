@@ -9,7 +9,7 @@ body {
 }
 
 img {
-  width: 35%;
+  width: 40%;
 }
 
 nav a {
@@ -31,7 +31,7 @@ p {
 }
 
 h2 {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
@@ -64,19 +64,12 @@ nav a:hover,
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  /* border-left: 2px solid #007eb66e; */
   border-radius: 4px;
 }
 
 .homelinks {
   margin-bottom: 0;
 }
-
-/* .nav-item-active a {
-  color: #fff;
-  background-color: #007eb6;
-  border-radius: 4px;
-} */
 
 button {
   border: none;
@@ -85,7 +78,6 @@ button {
   color: #fff;
   border-radius: 4px;
   font-size: 1rem;
-  /* width: 4rem; */
 }
 
 .pics .content img {
