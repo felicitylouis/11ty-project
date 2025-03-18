@@ -1,18 +1,6 @@
 ---
-pageTitle: About Us
 navTitle: Locations
-pageClass: about
 ---
-<!-- # about me
-## We are
-
-- a group of commited citizens
-- a caring community
-- a force in national politics
-
-We are New Yorkers. -->
-
-<!-- [Home](/) -->
 
 ### Bedford-Stuyvesant
 1561 Bedford Avenue  
